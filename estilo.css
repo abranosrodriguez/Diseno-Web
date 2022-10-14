@@ -1,0 +1,200 @@
+.espacio{
+	width: 10px;
+	height: 10px;
+}
+
+.left-margin{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.left-margin-barra{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.left-margin-fotos{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.barra{
+	display: inline-block;
+	margin-left: 20px;
+
+	font-family: arial;
+	font-size: 22px;
+
+	position: relative;
+	left: 700px;
+
+}
+.barra:hover {
+	color: white
+}
+
+.color{
+	background-color: #3b8695;
+	padding: 0.1px;
+	/*position: fixed;
+	right: 0;
+	left: 0; */
+}
+
+/*.barra-izquierda{
+	margin-left: 700px;
+	display: inline-block;
+	font-family: arial;
+	font-size: 22px;
+}*/
+
+
+.mapa{
+	margin: 0 auto;
+	width: 60%;
+}
+
+.ubicacion{
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #3b8695;
+
+	font-family: verdana;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.telefono{
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #3b8695;
+
+	font-family: verdana;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.informacion-contacto{
+	color: #8da4a9;
+	font-size: 20px;
+
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+
+
+
+footer {
+  margin: 0 auto;
+  background-color: #b6b6b6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+
+}
+
+.footer-fondo{
+	background-color: #b6b6b6;
+	margin: 0 auto;
+	height: 100px;
+
+}
+
+.footer{
+	margin: 0 auto;
+	width: 60%;
+	padding: 15px;
+
+
+	/*font-size: 15px;
+  color: #555;
+  background: #eee;
+  text-align: center;
+  position: fixed;
+  padding: 3px 0 5px;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #ddd;*/
+}
+
+.footer-opciones{
+	padding: 8px;
+
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3b8695;
+}
+/* 
+	espacio: Espacio encima del logo;
+
+	encabezado: Separación lateral;
+
+*/
+
+/* Fotos especialidades*/
+.imgRedonda{
+	border-radius: 120px;
+	border: 3px solid #3b8695;
+	width: 240px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+table{
+	margin: auto;
+	margin-top: 20px;
+
+}
+td{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3b8695;
+}
+
+/*.hexagono{
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);  
+  border
+  background: no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 200px;
+  width: 200px;  
+}*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+span{
+	text-align: center;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3b8695;
+}
+
+h1{
+	text-align: center;
+	font-family: verdana;
+	font-size: 30px;
+	font-weight: bold;
+	color: #326f7b;
+}
